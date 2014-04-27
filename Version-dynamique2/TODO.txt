@@ -1,0 +1,39 @@
+A faire selon moi
+- Menu déroulant sur la droite avec :
+	bouton proposition de compte
+	paramètre
+	son profil
+	déconnexion
+
+- Petite doc facil pour comprendre l'API twitter
+
+- popup en ajax pour :
+	la proposition de compte
+	les paramètres
+
+- page avec :
+	détail pour chaque compte
+	son profil utilisateur
+
+- simplification du css pour enlever les doublon de code
+
+---------------------------------------------------------------------------------------------------------------------------
+
+hoby-whan - je me propose pour les popup ajax, je vais surement tout refaire en jQuery vu la simplification que ça fait.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Pour la connexion à la base de donnée, je conseille :
+	installer wampserver (le plus facil pour moi)
+	le lancer en enlevant skype car ils utilisent le même port
+	sur l'icone en bas à droite (qui doit etre verte), clique gauche puis phpmyadmin
+	se connecter en tant que utilisateur root et sans mot de passe
+	cliquer sur l'onglet en haut 'bases de données'
+	créer une base mybdx
+	mettre le dossier Version-dynamique2 dans le dossier C:/wamp/www/
+	aller sur localhost/Version-dynamique2/php/bdd.php sur un navigateur
+	revenir sur phpmyadmin et la base de donnée est remplie
+	aller sur localhost/Version-dynamique2/index.html pour voir le site
+	Voila
+	
+

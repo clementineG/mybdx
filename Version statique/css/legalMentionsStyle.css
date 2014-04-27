@@ -1,0 +1,492 @@
+@media screen and (max-width: 479px){ /*Ecran de smartphone orientation portrait*/
+body
+{
+	background-color: rgb(240,240,240);
+	overflow: auto;
+}
+
+header
+{
+	background-color: rgb(70,70,70);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3.1em;
+	text-align: left;
+	z-index: 5;
+}
+
+.title
+{
+	color: rgb(166,219,232);
+	font-family: "century gothic", helvetica, verdana, sans-serif;
+	font-size: 30px;
+	text-shadow: 2px 2px 4px white;
+}
+
+.title a
+{
+	text-decoration: none;
+	color: #153a96;
+}
+
+.logo
+{
+	float: left;
+	margin-left: 15%;
+}
+
+.logo img
+{
+	width: 60px;
+	height: 40px;
+}
+
+section
+{
+	text-align: justify;
+	margin-top: 5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5em;
+	padding: 1em;
+	width: 75%;
+	min-width: 250px;
+	border: 0.1em solid black;
+	border-radius: 1.2em;
+	background-color: rgb(245,245,245);
+}
+
+section h1
+{
+	font-size: 2em;
+	line-height: 1em;
+	text-align: center;
+}
+
+section .separator
+{
+	margin-top: 2em;
+	border: 0.1em solid grey;
+}
+
+section h2
+{
+	font-size: 1.5em;
+	line-height: 4em;
+	text-align: center;
+}
+
+section p
+{
+	color: rgb(70,70,70);
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+section p b
+{
+	margin: 1.5em;
+}
+
+p
+{
+	font-family: "century gothic", helvetica, verdana, sans-serif;
+	font-size: 26px;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px){ /*Ecran de smartphone orientation paysage*/
+body
+{
+	background-color: rgb(240,240,240);
+	overflow: auto;
+}
+
+header
+{
+	background-color: rgb(70,70,70);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3.1em;
+	text-align: left;
+	z-index: 5;
+}
+
+.title
+{
+	color: rgb(166,219,232);
+	font-family: "century gothic", helvetica, verdana, sans-serif;
+	font-size: 35px;
+	text-shadow: 2px 2px 4px white;
+}
+
+.title a
+{
+	text-decoration: none;
+	color: #153a96;
+}
+
+.logo
+{
+	float: left;
+	margin-left: 15%;
+}
+
+.logo img
+{
+	width: 60px;
+	height: 40px;
+}
+
+section
+{
+	text-align: justify;
+	margin-top: 5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5em;
+	padding: 1em;
+	width: 75%;
+	min-width: 500px;
+	border: 0.1em solid black;
+	border-radius: 1.2em;
+	background-color: rgb(245,245,245);
+}
+
+section h1
+{
+	font-size: 2em;
+	line-height: 1em;
+	text-align: center;
+}
+
+section .separator
+{
+	margin-top: 2em;
+	border: 0.1em solid grey;
+}
+
+section h2
+{
+	font-size: 1.5em;
+	line-height: 4em;
+	text-align: center;
+}
+
+section p
+{
+	color: rgb(70,70,70);
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+section p b
+{
+	margin: 1.5em;
+}
+
+p
+{
+	font-family: "century gothic", helvetica, verdana, sans-serif;
+	font-size: 21px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){ /*Ecran de tablette orientation portrait*/
+body
+{
+	background-color: rgb(240,240,240);
+	overflow: auto;
+}
+
+header
+{
+	background-color: rgb(70,70,70);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3.1em;
+	text-align: left;
+	z-index: 5;
+}
+
+.title
+{
+	color: rgb(166,219,232);
+	font-family: "century gothic", helvetica, verdana, sans-serif;
+	font-size: 40px;
+	text-shadow: 2px 2px 4px white;
+}
+
+.title a
+{
+	text-decoration: none;
+	color: #153a96;
+}
+
+.logo
+{
+	float: left;
+	margin-left: 15%;
+}
+
+.logo img
+{
+	width: 60px;
+	height: 40px;
+}
+
+section
+{
+	text-align: justify;
+	margin-top: 5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5em;
+	padding: 1em;
+	width: 75%;
+	min-width: 800px;
+	border: 0.1em solid black;
+	border-radius: 1.2em;
+	background-color: rgb(245,245,245);
+}
+
+section h1
+{
+	font-size: 2em;
+	line-height: 1em;
+	text-align: center;
+}
+
+section .separator
+{
+	margin-top: 2em;
+	border: 0.1em solid grey;
+}
+
+section h2
+{
+	font-size: 1.5em;
+	line-height: 4em;
+	text-align: center;
+}
+
+section p
+{
+	color: rgb(70,70,70);
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+section p b
+{
+	margin: 1.5em;
+}
+
+p
+{
+	font-family: "century gothic", helvetica, verdana, sans-serif;
+	font-size: 21px;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1754px){ /*Ecran d'ordinateur taille normale + tablette orientation paysage*/
+body
+{
+	background-color: rgb(240,240,240);
+	overflow: auto;
+}
+
+header
+{
+	background-color: rgb(70,70,70);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3.1em;
+	text-align: left;
+	z-index: 5;
+}
+
+.title
+{
+	color: rgb(166,219,232);
+	font-family: "century gothic", helvetica, verdana, sans-serif;
+	font-size: 40px;
+	text-shadow: 2px 2px 4px white;
+}
+
+.title a
+{
+	text-decoration: none;
+	color: #153a96;
+}
+
+.logo
+{
+	float: left;
+	margin-left: 15%;
+}
+
+.logo img
+{
+	width: 60px;
+	height: 40px;
+}
+
+section
+{
+	text-align: justify;
+	margin-top: 5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5em;
+	padding: 1em;
+	width: 75%;
+	border: 0.1em solid black;
+	border-radius: 1.2em;
+	background-color: rgb(245,245,245);
+}
+
+section h1
+{
+	font-size: 2em;
+	line-height: 1em;
+	text-align: center;
+}
+
+section .separator
+{
+	margin-top: 2em;
+	border: 0.1em solid grey;
+}
+
+section h2
+{
+	font-size: 1.5em;
+	line-height: 4em;
+	text-align: center;
+}
+
+section p
+{
+	color: rgb(70,70,70);
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+section p b
+{
+	margin: 1.5em;
+}
+
+p
+{
+	font-family: "century gothic", helvetica, verdana, sans-serif;
+	font-size: 21px;
+}
+}
+
+@media screen and (min-width: 1754px){ /*Ecran d'ordinateur grande taille*/
+body
+{
+	background-color: rgb(240,240,240);
+	overflow: auto;
+}
+
+header
+{
+	background-color: rgb(70,70,70);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3.1em;
+	text-align: left;
+	z-index: 5;
+}
+
+.title
+{
+	color: rgb(166,219,232);
+	font-family: "century gothic", helvetica, verdana, sans-serif;
+	font-size: 40px;
+	text-shadow: 2px 2px 4px white;
+}
+
+.title a
+{
+	text-decoration: none;
+	color: #153a96;
+}
+
+.logo
+{
+	float: left;
+	margin-left: 15%;
+}
+
+.logo img
+{
+	width: 60px;
+	height: 40px;
+}
+
+section
+{
+	text-align: justify;
+	margin-top: 5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5em;
+	padding: 1em;
+	width: 75%;
+	border: 0.1em solid black;
+	border-radius: 1.2em;
+	background-color: rgb(245,245,245);
+}
+
+section h1
+{
+	font-size: 2em;
+	line-height: 1em;
+	text-align: center;
+}
+
+section .separator
+{
+	margin-top: 2em;
+	border: 0.1em solid grey;
+}
+
+section h2
+{
+	font-size: 1.5em;
+	line-height: 4em;
+	text-align: center;
+}
+
+section p
+{
+	color: rgb(70,70,70);
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+section p b
+{
+	margin: 1.5em;
+}
+
+p
+{
+	font-family: "century gothic", helvetica, verdana, sans-serif;
+	font-size: 21px;
+}
+}

@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <meta charset="utf-8">	
+    <link href="reset.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>My Bordeaux News</title>
+	<script src="creerRequete.js"></script>
+</head>
+<body>
+    <header> <!--HEADER--> 
+		
+		<div class="title">
+			<h1><a href="index.php">MyBdx</a></h1>
+		</div>
+		
+	</header>
+	
+	<section> 		
+		<div class="main">
+			<div class="breadcrumb">
+				<a href="index.html"> MyBdx > Accueil > </a></p>
+			</div>
+			
+			<div class="left">
+				<div class="main-text">
+					<h3> Bienvenue sur MyBdx ! </h3>
+					<h4> Sur ce site vous pourrez trouver toutes sortes d'information ayant (de près ou de loin) un lien avec bordeaux.
+					Ces informations sont affichés suivant un classement de popularité et triés par catégories. </h4>
+				</div>
+			
+				<div class="category">
+					<h2 class="category-title"> Catégories : </h2>
+					<form method="GET">
+						<div class="categoryAll">
+							<input type="button" onClick="Change('index.php')" value="Toutes les catégories"/>
+						</div>
+						<div class="categoryInformation">
+							<input type="button" onClick="Change('Information.php')" value="Information"/>
+						</div>
+						<div class="categorySorties">
+							<input type="button" onClick="Change('Sortie.php')" value="Sorties"/>
+						</div>
+						<div class="categorySports">
+							<input type="button" onClick="Change('Sport.php')" value="Sports"/>
+						</div>
+						<div class="categoryEconomie">
+							<input type="button" onClick="Change('Economie.php')" value="Economie"/>
+						</div>
+						<div class="categoryEntreprise">
+							<input type="button" onClick="Change('Entreprise.php')" value="Entreprise"/>
+						</div>
+					</form>
+				</div><br/>
+				<div class="separator"></div>
+				<div class="share">
+					<form method="GET">
+						<input type="button" onClick="NousRetrouver()" value="Nous retrouver"/> |
+						<input type="button" onClick="Partager()" value="Partager"/> 
+					</form>
+				</div>
+			</div>
+			<div class="right">
+				<div id="content">
+					<h2>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.
+
+					Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar. Nulla sollicitudin. Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae ligula. Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellentesque diam. Integer quis metus vitae elit lobortis egestas. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi vel erat non mauris convallis vehicula. Nulla et sapien. Integer tortor tellus, aliquam faucibus, convallis id, congue eu, quam. Mauris ullamcorper felis vitae erat. Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo vitae magna.
+
+					Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum mollis, ligula massa adipiscing nisl, ac euismod nibh nisl eu lectus. Fusce vulputate sem at sapien. Vivamus leo. Aliquam euismod libero eu enim. Nulla nec felis sed leo placerat imperdiet. Aenean suscipit nulla in justo. Suspendisse cursus rutrum augue. Nulla tincidunt tincidunt mi. Curabitur iaculis, lorem vel rhoncus faucibus, felis magna fermentum augue, et ultricies lacus lorem varius purus. Curabitur eu amet.
+					</h2>
+				</div>
+			</div>
+		</div>
+				
+    </section>
+	
+	
+	
+    <footer> <!--FOOTER-->
+			<a href="https://www.facebook.com/Mybdx.fr"><img id="facebook" src="facebook.png" alt="facebook mybdx" title="Retrouvez-nous sur Facebook !"/></a>
+			<a href="https://twitter.com/Mybdx33"><img id="twitter" src="twitter.png" alt="twitter mybdx" title="Retrouvez-nous sur Twitter !"/></a>
+			<a href="https://plus.google.com/u/0/108047020626214498830"><img id="googleplus" src="googleplus.png" alt="googleplus mybdx" title="Retrouvez-nous sur Google+ !"/></a>
+	</footer>
+</body>
+</html>

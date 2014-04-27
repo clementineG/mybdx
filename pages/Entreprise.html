@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <meta charset="utf-8">	
+    <link href="reset.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>My Bordeaux News</title>
+	<script src="creerRequete.js"></script>
+</head>
+<body>
+    <header> <!--HEADER--> 
+		
+		<div class="title">
+			<h1><a href="index.php">MyBdx</a></h1>
+		</div>
+		
+	</header>
+	
+	<section> 		
+		<div class="main">
+			<div class="breadcrumb">
+				<a href="index.html"> MyBdx > Accueil > </a></p>
+			</div>
+			
+			<div class="left">
+				<div class="main-text">
+					<h3> Bienvenue sur MyBdx ! </h3>
+					<h4> Sur ce site vous pourrez trouver toutes sortes d'information ayant (de près ou de loin) un lien avec bordeaux.
+					Ces informations sont affichés suivant un classement de popularité et triés par catégories. </h4>
+				</div>
+			
+				<div class="category">
+					<h2 class="category-title"> Catégories : </h2>
+					<form method="GET">
+						<div class="categoryAll">
+							<input type="button" onClick="Change('index.php')" value="Toutes les catégories"/>
+						</div>
+						<div class="categoryInformation">
+							<input type="button" onClick="Change('Information.php')" value="Information"/>
+						</div>
+						<div class="categorySorties">
+							<input type="button" onClick="Change('Sortie.php')" value="Sorties"/>
+						</div>
+						<div class="categorySports">
+							<input type="button" onClick="Change('Sport.php')" value="Sports"/>
+						</div>
+						<div class="categoryEconomie">
+							<input type="button" onClick="Change('Economie.php')" value="Economie"/>
+						</div>
+						<div class="categoryEntreprise">
+							<input type="button" onClick="Change('Entreprise.php')" value="Entreprise"/>
+						</div>
+					</form>
+				</div><br/>
+				<div class="separator"></div>
+				<div class="share">
+					<form method="GET">
+						<input type="button" onClick="NousRetrouver()" value="Nous retrouver"/> |
+						<input type="button" onClick="Partager()" value="Partager"/> 
+					</form>
+				</div>
+			</div>
+			<div class="right">
+				<div id="content">
+					<div class="colorleftentreprise">
+					</div>
+					<div class="fontdiv">
+						<div class="case">@alienornet
+						</div>
+						<div class="case">
+						</div>
+						<div class="case">Entreprise
+						</div>
+					</div>
+					<div class="colorleftentreprise">
+					</div>
+					<div class="fontdiv">
+						<div class="case">@ALVEA_Services
+						</div>
+						<div class="case">
+						</div>
+						<div class="case">Entreprise
+						</div>
+					</div>
+					<div class="colorleftentreprise">
+					</div>
+					<div class="fontdiv">
+						<div class="case">@BordeauxEmploi
+						</div>
+						<div class="case">
+						</div>
+						<div class="case">Entreprise
+						</div>
+					</div>
+					<div class="colorleftentreprise">
+					</div>
+					<div class="fontdiv">
+						<div class="case">@BxGames
+						</div>
+						<div class="case">
+						</div>
+						<div class="case">Entreprise
+						</div>
+					</div>
+					<div class="colorleftentreprise">
+					</div>
+					<div class="fontdiv">
+						<div class="case">@bxnode
+						</div>
+						<div class="case">
+						</div>
+						<div class="case">Entreprise
+						</div>
+					</div>
+					<div class="colorleftentreprise">
+					</div>
+					<div class="fontdiv">
+						<div class="case">@MDEBORDEAUX
+						</div>
+						<div class="case">
+						</div>
+						<div class="case">Entreprise
+						</div>
+					</div>
+					<div class="colorleftentreprise">
+					</div>
+					<div class="fontdiv">
+						<div class="case">@SWBordeaux
+						</div>
+						<div class="case">
+						</div>
+						<div class="case">Entreprise
+						</div>
+					</div>
+					<div class="colorleftentreprise">
+					</div>
+					<div class="fontdiv">
+						<div class="case">@TURBOMECA
+						</div>
+						<div class="case"> 
+						</div>
+						<div class="case">Entreprise
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+				
+    </section>
+	
+	
+	
+    <footer> <!--FOOTER-->
+			<a href="https://www.facebook.com/Mybdx.fr"><img id="facebook" src="facebook.png" alt="facebook mybdx" title="Retrouvez-nous sur Facebook !"/></a>
+			<a href="https://twitter.com/Mybdx33"><img id="twitter" src="twitter.png" alt="twitter mybdx" title="Retrouvez-nous sur Twitter !"/></a>
+			<a href="https://plus.google.com/u/0/108047020626214498830"><img id="googleplus" src="googleplus.png" alt="googleplus mybdx" title="Retrouvez-nous sur Google+ !"/></a>
+	</footer>
+</body>
+</html>

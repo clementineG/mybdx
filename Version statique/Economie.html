@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <meta charset="utf-8">	
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+	<title>MyBdx - Comptes Twitter de la ville de Bordeaux</title>
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+	<meta name="description" content="Site web permettant la mise en avant des comptes Twitter relatifs à la ville de Bordeaux."/>
+	<meta name="keywords" content="comptes twitter bordeaux, mybdx, activités bordeaux, actualité bordeaux, informations bordeaux, infos locales bordeaux, région bordelaise, bdx, sport bordeaux, entreprises bordeaux, évènements bordeaux, sorties bordeaux, économie bordeaux, annuaire comptes twitter bordeaux"/>
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try{
+		var pageTracker = _gat._getTracker("UA-44812751-1");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+	<script src="creerRequete.js"></script>
+</head>
+<body>
+    <header> <!--HEADER--> 
+		
+		<div class="logo">
+			<a href="index.html" title="Retour à l'accueil"><img src="images/logo.png" alt="logo mybdx"/></a>
+		</div>
+		<div class="title">
+			<h1><a href="index.html" title="Retour à l'accueil">MyBdx</a></h1>
+		</div>
+		<div class="connect_suscribe">
+			<form method="GET">
+				<input type="button" onClick="Connect()" value="Connection"/>
+				<input type="button" onClick="Suscribe()" value="Inscription"/> 
+			</form>
+		</div>
+		<div class="submit">
+			<form method="GET">
+				<input type="button" onClick="ProposerCompte()" value="Soummettre un nouveau compte"/>
+			</form>
+		</div>
+		
+	</header>
+	
+	<section> 		
+		<div class="main">
+			<div class="breadcrumb">
+				<a href="index.html"> MyBdx > Economie > </a>
+			</div>
+			
+			<div class="left">
+				<div class="main-text">
+					<p>Bienvenue sur MyBdx !</p>
+					<p>Sur ce site vous pourrez trouver toutes sortes d'information ayant (de près ou de loin) un lien avec bordeaux.
+					Ces informations sont affichés suivant un classement de popularité et triés par catégories.</p>
+				</div>
+			
+				<div class="category">
+					<p class="category-title">Catégories</p>
+					<form method="GET">
+						<div class="categoryAll">
+							<a href="index.html"><input type="button" onClick="Change('index.html')" value="Toutes"/></a>
+						</div>
+						<div class="categoryInformation">
+							<a href="Information.html"><input type="button" onClick="Change('Information.html')" value="Information"/></a>
+						</div>
+						<div class="categorySorties">
+							<a href="Sortie.html"><input type="button" onClick="Change('Sortie.html')" value="Sorties"/></a>
+						</div>
+						<div class="categorySports">
+							<a href="Sport.html"><input type="button" onClick="Change('Sport.html')" value="Sports"/></a>
+						</div>
+						<div class="categoryEconomie">
+							<a href="Economie.html"><input type="button" onClick="Change('Economie.html')" value="Economie"/></a>
+						</div>
+						<div class="categoryEntreprise">
+							<a href="Entreprise.html"><input type="button" onClick="Change('Entreprise.html')" value="Entreprise"/></a>
+						</div>
+					</form>
+				</div><br/>
+				<div class="separator"></div>
+				<div class="share">
+					<form method="GET">
+						<input type="button" onClick="NousRetrouver()" value="Nous retrouver"/>
+						<input type="button" onClick="Partager()" value="Partager"/> 
+					</form>
+				</div>
+			</div>
+			<div class="right">
+				<div id="content">
+					<div class="colorlefteconomie">
+					</div>
+					<div class="fontdiv">
+						<div class="case">@VinsdeBordeaux
+						</div>
+						<div class="case">
+						</div>
+						<div class="case">Economie
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+				
+    </section>
+	
+	
+	
+    <footer> <!--FOOTER-->
+			<a href="http://www.iut.u-bordeaux1.fr/info/"><img id="iut" src="images/logo_info_couleur.png" alt="IUT Informatique Bordeaux 1" title="IUT Bordeaux 1 - Département Informatique"/></a>
+			<a href="https://www.facebook.com/Mybdx.fr"><img id="facebook" src="images/facebook.png" alt="facebook mybdx" title="Retrouvez-nous sur Facebook !"/></a>
+			<a href="https://twitter.com/Mybdx33"><img id="twitter" src="images/twitter.png" alt="twitter mybdx" title="Retrouvez-nous sur Twitter !"/></a>
+			<a href="https://plus.google.com/u/0/108047020626214498830"><img id="googleplus" src="images/googleplus.png" alt="googleplus mybdx" title="Retrouvez-nous sur Google+ !"/></a>
+			<div id="legalMentions"><a href="mentions-legales.html">Mentions légales</a></div>
+	</footer>
+</body>
+</html>

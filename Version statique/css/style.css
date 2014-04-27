@@ -1,0 +1,2034 @@
+@media screen and (max-width: 479px){ /*Ecran de smartphone orientation portrait*/
+body
+{
+	background-image: url("../images/bordeauxMiroirSmartphonePortrait.jpg");
+	background-color: rgb(70,70,70);
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: auto;
+	font-family: "century gothic", helvetica, verdana;
+}
+
+header
+{
+	background-color: rgb(70,70,70);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 4.2em;
+	text-align: left;
+	z-index: 8;
+}
+
+.title
+{
+	display: inline-block;
+	color: rgb(166,219,232);
+	font-family: "century gothic", helvetica, verdana, sans-serif;
+	font-size: 2.5em;
+	text-shadow: 0.05em 0.05em 0.1em white;
+}
+
+.title a
+{
+	text-decoration: none;
+	color: #153a96;
+}
+
+.logo
+{
+	float: left;
+	margin-left: 12%;
+}
+
+.logo img
+{
+	width: 3.84em;
+	height: 2.56em;
+}
+
+.connect_suscribe
+{
+	display: inline-block;
+}
+
+.submit
+{
+	display: none;
+}
+
+section
+{
+	text-align: center;
+	margin-top: 4.5em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+p
+{
+	line-height: 1.2em;
+}
+
+.left
+{
+	display: inline-block;
+	width: 30%;
+}
+
+.right
+{
+	float: right;
+	margin-right: 8%;
+	width: 50%;
+}
+
+.main
+{
+	text-align: left;
+	margin:0 auto;
+	background-color:rgba(100,100,100,0.3);
+	min-width: 250px;
+	overflow: auto;
+}
+
+.breadcrumb 
+{
+	background-color: rgba(100,100,100,0.8);
+	padding: 0.32em 0 0.32em 0;
+	width: 100%;
+}
+
+.breadcrumb a
+{
+	margin-left: 0.5em;
+	color:white;
+	text-decoration:none;
+}
+
+.main-text
+{
+	display: none;
+}
+
+.category
+{
+	display:block;
+	padding:3%;
+	margin:3%;
+	width: 100%;
+}
+
+.category input:hover
+{
+	border:1px solid #000000;	
+}
+
+
+.category-title
+{
+	color:white;
+	background-color:#555555;
+	margin:0.7%;
+	padding:1.75%;
+	margin-bottom:3.5%;
+	width:94%;
+	border:1px solid #555555;
+	font-size: 0.8em;
+}
+
+.categoryAll
+{
+	width: 100%;
+}
+
+.categoryAll input 
+{
+	color:black;
+	background-color:#FFFFFF;
+	margin-left:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width: 100%;
+	border:1px solid #FFFFFF;
+}
+
+.categoryInformation input 
+{
+	color:white;
+	background-color:#CE2430;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #CE2430;
+}
+
+.categorySorties input 
+{
+	color:white;
+	background-color:#42C2E2;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #42C2E2;
+}
+
+.categorySports input 
+{
+	color:white;
+	background-color:#E3971F;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #E3971F;
+}
+
+.categoryEconomie input
+{
+	color:white;
+	background-color:#21CF25;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #21CF25;
+}
+
+.categoryEntreprise input
+{
+	color:white;
+	background-color:#555555;
+	margin:0.7%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #555555;
+}
+
+.separator
+{
+	margin-left: 7%;
+	border-top: 1px solid black;
+	width: 100%;
+}
+
+.share
+{
+	margin:7%;
+	background-color:#F3DBB4;
+	width: 100%;
+	display: block;
+}
+
+.share input
+{
+	font-size: 0.55em;
+	color:#555555;
+	background-color:#F3DBB4;
+	width:100%;
+	border:1px solid #F3DBB4;
+}
+
+#content
+{
+	background-color:rgba(255,255,255,0.9);	
+	width:100%;
+	padding:3.5%;
+	margin:5.25%;
+	border:1px solid black;
+	font-size: 0.8em;
+}
+
+.colorleftentreprise
+{
+	height:2.8em;
+	width:1%;
+	background-color:#555555;
+	display:inline-block;
+}
+.colorlefteconomie
+{
+	height:2.8em;
+	width:1%;
+	background-color:#21CF25;
+	display:inline-block;
+}
+.colorleftsport
+{
+	height:2.8em;
+	width:1%;
+	background-color:#E3971F;
+	display:inline-block;
+}
+.colorleftsortie
+{
+	height:2.8em;
+	width:1%;
+	background-color:#42C2E2;
+	display:inline-block;
+}
+.colorleftinformation
+{
+	height:2.8em;
+	width:1%;
+	background-color:#CE2430;
+	display:inline-block;
+}
+
+.fontdiv
+{
+	background-color:rgba(100,100,100,0.3);
+	display: inline-block;
+	width: 93%;
+	border: 1px solid grey;
+}
+
+.case
+{
+	height: 1em;
+	display:block;
+}
+
+#profil
+{
+	text-align: center;
+}
+
+#profil img
+{
+	border-radius: 1em;
+}
+
+#description
+{
+	width: 60%;
+	background-color: rgba(255,255,255,0.7);
+	text-align: center;
+	line-height: 1.5em;
+	border: 1px solid grey;
+	border-radius: 1em;
+	margin: auto;
+	padding: 1em;
+}
+
+#description p
+{
+	font-size: 0.8em;
+}
+
+#separator
+{
+	margin-top: 3%;
+	margin-bottom: 3%;
+	border: 0.1em solid grey;
+}
+
+#tweets
+{
+	margin-left: 5%;
+	width: 90%;
+}
+
+#tweets table
+{
+	background-color: rgba(255,255,255,0.7);
+	width: 100%;
+	margin: auto;
+	border-radius: 0.5em;
+}
+
+#tweets table caption
+{
+	background-color: rgba(0,172,238,0.7);
+	font-size: 0.8em;
+	padding: 0.1em;
+	border-radius: 0.5em;
+}
+
+#tweets table td
+{
+	font-size: 0.7em;
+	padding: 0.5em;
+	border-bottom: 0.1em solid rgb(100,100,100);
+}
+
+#tweets table #lastElement
+{
+	border: none;
+}
+
+footer
+{
+	text-align: left;
+	color: rgb(0,255,255);
+	height: 100%;
+}
+
+#iut
+{
+	height: 7%;
+	border-radius: 2.5em;
+}
+
+#legalMentions
+{
+	position: relative;
+	margin-top: -1.8em;
+	text-align: center;
+} 
+
+#legalMentions a
+{
+	text-decoration: bold;
+	color: black;
+}
+
+#facebook
+{
+	height: 7%;
+}
+
+#twitter
+{
+	height: 7%;
+}
+
+#googleplus
+{
+	height: 7%;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px){ /*Ecran de smartphone orientation paysage*/
+body
+{
+	background-image: url("../images/bordeauxMiroirSmartphonePaysage.jpg");
+	background-color: rgb(70,70,70);
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: auto;
+	font-family: "century gothic", helvetica, verdana;
+}
+
+header
+{
+	background-color: rgb(70,70,70);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3.2em;
+	text-align: left;
+	z-index: 8;
+}
+
+.title
+{
+	display: inline-block;
+	color: rgb(166,219,232);
+	font-family: "century gothic", helvetica, verdana, sans-serif;
+	font-size: 2.5em;
+	text-shadow: 0.05em 0.05em 0.1em white;
+}
+
+.title a
+{
+	text-decoration: none;
+	color: #153a96;
+}
+
+.logo
+{
+	float: left;
+	margin-left: 15%;
+}
+
+.logo img
+{
+	width: 3.84em;
+	height: 2.56em;
+}
+
+.connect_suscribe
+{
+	display: inline-block;
+	margin-left: 5%;
+}
+
+.submit
+{
+	display: none;
+}
+
+section
+{
+	text-align: center;
+	margin-top: 4.5em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+p
+{
+	line-height: 1.2em;
+}
+
+.left
+{
+	display: inline-block;
+	width: 30%;
+}
+
+.right
+{
+	float: right;
+	margin-right: 8%;
+	width: 50%;
+}
+
+.main
+{
+	text-align: left;
+	margin:0 auto;
+	background-color:rgba(100,100,100,0.3);
+	min-width: 480px;
+	overflow: auto;
+}
+
+.breadcrumb 
+{
+	background-color: rgba(100,100,100,0.8);
+	padding: 0.32em 0 0.32em 0;
+	width: 100%;
+}
+
+.breadcrumb a
+{
+	margin-left: 0.5em;
+	color:white;
+	text-decoration:none;
+}
+
+.main-text
+{
+	display: none;
+}
+
+.category
+{
+	display:block;
+	padding:3%;
+	margin:3%;
+	width: 100%;
+}
+
+.category input:hover
+{
+	border:1px solid #000000;	
+}
+
+
+.category-title
+{
+	color:white;
+	background-color:#555555;
+	margin:0.7%;
+	padding:1.75%;
+	margin-bottom:3.5%;
+	width:75%;
+	border:1px solid #555555;
+}
+
+.categoryAll
+{
+	width: 100%;
+}
+
+.categoryAll input 
+{
+	color:black;
+	background-color:#FFFFFF;
+	margin-left:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width: 100%;
+	border:1px solid #FFFFFF;
+}
+
+.categoryInformation input 
+{
+	color:white;
+	background-color:#CE2430;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #CE2430;
+}
+
+.categorySorties input 
+{
+	color:white;
+	background-color:#42C2E2;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #42C2E2;
+}
+
+.categorySports input 
+{
+	color:white;
+	background-color:#E3971F;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #E3971F;
+}
+
+.categoryEconomie input
+{
+	color:white;
+	background-color:#21CF25;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #21CF25;
+}
+
+.categoryEntreprise input
+{
+	color:white;
+	background-color:#555555;
+	margin:0.7%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #555555;
+}
+
+.separator
+{
+	margin-left: 7%;
+	border-top: 1px solid black;
+	width: 100%;
+}
+
+.share
+{
+	margin:7%;
+	background-color:#F3DBB4;
+	width: 100%;
+	display: block;
+}
+
+.share input
+{
+	color:#555555;
+	background-color:#F3DBB4;
+	width:100%;
+	border:1px solid #F3DBB4;
+}
+
+#content
+{
+	background-color:rgba(255,255,255,0.9);	
+	width:100%;
+	padding:3.5%;
+	margin:5.25%;
+	border:1px solid black;
+}
+
+.colorleftentreprise
+{
+	height:2.8em;
+	width:1%;
+	background-color:#555555;
+	display:inline-block;
+}
+.colorlefteconomie
+{
+	height:2.8em;
+	width:1%;
+	background-color:#21CF25;
+	display:inline-block;
+}
+.colorleftsport
+{
+	height:2.8em;
+	width:1%;
+	background-color:#E3971F;
+	display:inline-block;
+}
+.colorleftsortie
+{
+	height:2.8em;
+	width:1%;
+	background-color:#42C2E2;
+	display:inline-block;
+}
+.colorleftinformation
+{
+	height:2.8em;
+	width:1%;
+	background-color:#CE2430;
+	display:inline-block;
+}
+
+.fontdiv
+{
+	background-color:rgba(100,100,100,0.3);
+	display: inline-block;
+	width: 95%;
+	border: 1px solid grey;
+}
+
+.case
+{
+	height: 1em;
+	display:block;
+}
+
+#profil
+{
+	text-align: center;
+}
+
+#profil img
+{
+	border-radius: 1em;
+}
+
+#description
+{
+	width: 60%;
+	background-color: rgba(255,255,255,0.7);
+	text-align: center;
+	line-height: 1.5em;
+	border: 1px solid grey;
+	border-radius: 1em;
+	margin: auto;
+	padding: 1.5em;
+}
+
+#description p
+{
+	font-size: 1em;
+}
+
+#separator
+{
+	margin-top: 3%;
+	margin-bottom: 3%;
+	border: 0.1em solid grey;
+}
+
+#tweets
+{
+	margin-left: 5%;
+	width: 90%;
+}
+
+#tweets table
+{
+	background-color: rgba(255,255,255,0.7);
+	width: 100%;
+	margin: auto;
+	border-radius: 0.5em;
+}
+
+#tweets table caption
+{
+	background-color: rgba(0,172,238,0.7);
+	font-size: 1em;
+	padding: 0.5em;
+	border-radius: 0.5em;
+}
+
+#tweets table td
+{
+	font-size: 0.8em;
+	padding: 0.8em;
+	border-bottom: 0.1em solid rgb(100,100,100);
+}
+
+#tweets table #lastElement
+{
+	border: none;
+}
+
+footer
+{
+	text-align: left;
+	color: rgb(0,255,255);
+	height: 100%;
+}
+
+#iut
+{
+	height: 7%;
+	border-radius: 2.5em;
+}
+
+#legalMentions
+{
+	position: relative;
+	margin-top: -1.8em;
+	text-align: center;
+} 
+
+#legalMentions a
+{
+	text-decoration: bold;
+	color: black;
+}
+
+#facebook
+{
+	height: 7%;
+}
+
+#twitter
+{
+	height: 7%;
+}
+
+#googleplus
+{
+	height: 7%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){ /*Ecran de tablette orientation portrait*/
+body
+{
+	background-image: url("../images/bordeauxMiroirTablettePortrait.jpg");
+	background-color: rgb(70,70,70);
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: auto;
+	font-family: "century gothic", helvetica, verdana;
+}
+
+header
+{
+	background-color: rgb(70,70,70);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3.2em;
+	text-align: left;
+	z-index: 8;
+}
+
+.title
+{
+	display: inline-block;
+	color: rgb(166,219,232);
+	font-family: "century gothic", helvetica, verdana, sans-serif;
+	font-size: 2.5em;
+	text-shadow: 0.05em 0.05em 0.1em white;
+}
+
+.title a
+{
+	text-decoration: none;
+	color: #153a96;
+}
+
+.logo
+{
+	float: left;
+	margin-left: 15%;
+}
+
+.logo img
+{
+	width: 3.84em;
+	height: 2.56em;
+}
+
+.connect_suscribe
+{
+	display: inline-block;
+	margin-left: 8%;
+}
+
+.submit
+{
+	display: inline-block;
+}
+
+section
+{
+	text-align: center;
+	margin-top: 4.5em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+p
+{
+	line-height: 1.2em;
+}
+
+.left
+{
+	display: inline-block;
+	width: 30%;
+}
+
+.right
+{
+	float: right;
+	margin-right: 8%;
+	width: 50%;
+}
+
+.main
+{
+	text-align: left;
+	margin:0 auto;
+	background-color:rgba(100,100,100,0.3);
+	min-width: 768px;
+	overflow: auto;
+}
+
+.breadcrumb 
+{
+	background-color: rgba(100,100,100,0.8);
+	padding: 0.32em 0 0.32em 0;
+	width: 100%;
+}
+
+.breadcrumb a
+{
+	margin-left: 0.5em;
+	color:white;
+	text-decoration:none;
+}
+
+.main-text
+{
+	display: block;
+	background-color:rgba(255,255,255,0.5);
+	width:100%;
+	padding:3%;
+	margin:7%;
+	text-align: center;
+}
+
+.category
+{
+	display:block;
+	padding:3%;
+	margin:3%;
+	width: 100%;
+}
+
+.category input:hover
+{
+	border:1px solid #000000;	
+}
+
+
+.category-title
+{
+	color:white;
+	background-color:#555555;
+	margin:0.7%;
+	padding:1.75%;
+	margin-bottom:3.5%;
+	width:75%;
+	border:1px solid #555555;
+}
+
+.categoryAll
+{
+	width: 100%;
+}
+
+.categoryAll input 
+{
+	color:black;
+	background-color:#FFFFFF;
+	margin-left:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width: 100%;
+	border:1px solid #FFFFFF;
+}
+
+.categoryInformation input 
+{
+	color:white;
+	background-color:#CE2430;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #CE2430;
+}
+
+.categorySorties input 
+{
+	color:white;
+	background-color:#42C2E2;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #42C2E2;
+}
+
+.categorySports input 
+{
+	color:white;
+	background-color:#E3971F;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #E3971F;
+}
+
+.categoryEconomie input
+{
+	color:white;
+	background-color:#21CF25;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #21CF25;
+}
+
+.categoryEntreprise input
+{
+	color:white;
+	background-color:#555555;
+	margin:0.7%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #555555;
+}
+
+.separator
+{
+	margin-left: 7%;
+	border-top: 1px solid black;
+	width: 100%;
+}
+
+.share
+{
+	margin:7%;
+	background-color:#F3DBB4;
+	width: 100%;
+	display: block;
+}
+
+.share input
+{
+	color:#555555;
+	background-color:#F3DBB4;
+	width:45%;
+	border:1px solid #F3DBB4;
+}
+
+#content
+{
+	background-color:rgba(255,255,255,0.9);	
+	width:100%;
+	padding:3.5%;
+	margin:5.25%;
+	border:1px solid black;
+}
+
+.colorleftentreprise
+{
+	height:2.8em;
+	width:1%;
+	background-color:#555555;
+	display:inline-block;
+}
+.colorlefteconomie
+{
+	height:2.8em;
+	width:1%;
+	background-color:#21CF25;
+	display:inline-block;
+}
+.colorleftsport
+{
+	height:2.8em;
+	width:1%;
+	background-color:#E3971F;
+	display:inline-block;
+}
+.colorleftsortie
+{
+	height:2.8em;
+	width:1%;
+	background-color:#42C2E2;
+	display:inline-block;
+}
+.colorleftinformation
+{
+	height:2.8em;
+	width:1%;
+	background-color:#CE2430;
+	display:inline-block;
+}
+
+.fontdiv
+{
+	background-color:rgba(100,100,100,0.3);
+	display: inline-block;
+	width: 97%;
+	border: 1px solid grey;
+}
+
+.case
+{
+	height: 1em;
+	display:block;
+}
+
+#profil
+{
+	text-align: center;
+}
+
+#profil img
+{
+	border-radius: 1em;
+}
+
+#description
+{
+	width: 60%;
+	background-color: rgba(255,255,255,0.7);
+	text-align: center;
+	line-height: 1.5em;
+	border: 1px solid grey;
+	border-radius: 1em;
+	margin: auto;
+	padding: 1.5em;
+}
+
+#description p
+{
+	font-size: 1.2em;
+}
+
+#separator
+{
+	margin-top: 3%;
+	margin-bottom: 3%;
+	border: 0.1em solid grey;
+}
+
+#tweets
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+#tweets table
+{
+	background-color: rgba(255,255,255,0.7);
+	width: 100%;
+	margin: auto;
+	border-radius: 1em;
+}
+
+#tweets table caption
+{
+	background-color: rgba(0,172,238,0.7);
+	font-size: 1.2em;
+	padding: 0.5em;
+	border-radius: 1em;
+}
+
+#tweets table td
+{
+	font-size: 1.2em;
+	padding: 0.8em;
+	border-bottom: 0.1em solid rgb(100,100,100);
+}
+
+#tweets table #lastElement
+{
+	border: none;
+}
+
+footer
+{
+	text-align: left;
+	color: rgb(0,255,255);
+	height: 100%;
+}
+
+#iut
+{
+	height: 7%;
+	border-radius: 2.5em;
+}
+
+#legalMentions
+{
+	position: relative;
+	margin-top: -1.8em;
+	text-align: center;
+} 
+
+#legalMentions a
+{
+	text-decoration: bold;
+	color: black;
+}
+
+#facebook
+{
+	height: 7%;
+}
+
+#twitter
+{
+	height: 7%;
+}
+
+#googleplus
+{
+	height: 7%;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1754px){ /*Ecran d'ordinateur taille normale + tablette orientation paysage*/
+body
+{
+	background-image: url("../images/bordeauxMiroir.jpg");
+	background-color: rgb(70,70,70);
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: auto;
+	font-family: "century gothic", helvetica, verdana;
+}
+
+header
+{
+	background-color: rgb(70,70,70);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3.2em;
+	text-align: left;
+	z-index: 8;
+}
+
+.title
+{
+	display: inline-block;
+	color: rgb(166,219,232);
+	font-family: "century gothic", helvetica, verdana, sans-serif;
+	font-size: 2.5em;
+	text-shadow: 0.05em 0.05em 0.1em white;
+}
+
+.title a
+{
+	text-decoration: none;
+	color: #153a96;
+}
+
+.logo
+{
+	float: left;
+	margin-left: 15%;
+}
+
+.logo img
+{
+	width: 3.84em;
+	height: 2.56em;
+}
+
+.connect_suscribe
+{
+	display: inline-block;
+	margin-left: 25%;
+}
+
+.submit
+{
+	display: inline-block;
+}
+
+section
+{
+	text-align: center;
+	margin-top: 4.5em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+p
+{
+	line-height: 1.2em;
+}
+
+.left
+{
+	display: inline-block;
+	width: 30%;
+}
+
+.right
+{
+	float: right;
+	margin-right: 8%;
+	width: 50%;
+}
+
+.main
+{
+	text-align: left;
+	margin:0 auto;
+	background-color:rgba(100,100,100,0.3);
+	min-width: 1024px;
+	overflow: auto;
+}
+
+.breadcrumb 
+{
+	background-color: rgba(100,100,100,0.8);
+	padding: 0.32em 0 0.32em 0;
+}
+
+.breadcrumb a
+{
+	margin-left: 0.5em;
+	color:white;
+	text-decoration:none;
+}
+
+.main-text
+{
+	display: block;
+	background-color:rgba(255,255,255,0.5);
+	width:100%;
+	padding:3%;
+	margin:7%;
+	text-align: center;
+}
+
+.category
+{
+	display:block;
+	padding:3%;
+	margin:3%;
+	width: 100%;
+}
+
+.category input:hover
+{
+	border:1px solid #000000;	
+}
+
+
+.category-title
+{
+	color:white;
+	background-color:#555555;
+	margin:0.7%;
+	padding:1.75%;
+	margin-bottom:3.5%;
+	width:75%;
+	border:1px solid #555555;
+}
+
+.categoryAll
+{
+	width: 100%;
+}
+
+.categoryAll input 
+{
+	color:black;
+	background-color:#FFFFFF;
+	margin-left:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width: 100%;
+	border:1px solid #FFFFFF;
+}
+
+.categoryInformation input 
+{
+	color:white;
+	background-color:#CE2430;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #CE2430;
+}
+
+.categorySorties input 
+{
+	color:white;
+	background-color:#42C2E2;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #42C2E2;
+}
+
+.categorySports input 
+{
+	color:white;
+	background-color:#E3971F;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #E3971F;
+}
+
+.categoryEconomie input
+{
+	color:white;
+	background-color:#21CF25;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #21CF25;
+}
+
+.categoryEntreprise input
+{
+	color:white;
+	background-color:#555555;
+	margin:0.7%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #555555;
+}
+
+.separator
+{
+	margin-left: 7%;
+	border-top: 1px solid black;
+	width: 100%;
+}
+
+.share
+{
+	margin:7%;
+	background-color:#F3DBB4;
+	width: 100%;
+	display: block;
+}
+
+.share input
+{
+	color:#555555;
+	background-color:#F3DBB4;
+	width:45%;
+	border:1px solid #F3DBB4;
+}
+
+#content
+{
+	background-color:rgba(255,255,255,0.9);	
+	width:100%;
+	padding:3.5%;
+	margin:5.25%;
+	border:1px solid black;
+}
+
+.colorleftentreprise
+{
+	height:2.8em;
+	width:1%;
+	background-color:#555555;
+	display:inline-block;
+}
+.colorlefteconomie
+{
+	height:2.8em;
+	width:1%;
+	background-color:#21CF25;
+	display:inline-block;
+}
+.colorleftsport
+{
+	height:2.8em;
+	width:1%;
+	background-color:#E3971F;
+	display:inline-block;
+}
+.colorleftsortie
+{
+	height:2.8em;
+	width:1%;
+	background-color:#42C2E2;
+	display:inline-block;
+}
+.colorleftinformation
+{
+	height:2.8em;
+	width:1%;
+	background-color:#CE2430;
+	display:inline-block;
+}
+
+.fontdiv
+{
+	background-color:rgba(100,100,100,0.3);
+	display: inline-block;
+	width: 97%;
+	border: 1px solid grey;
+}
+
+.case
+{
+	height: 1em;
+	display:block;
+}
+
+#profil
+{
+	text-align: center;
+}
+
+#profil img
+{
+	border-radius: 1em;
+}
+
+#description
+{
+	width: 60%;
+	background-color: rgba(255,255,255,0.7);
+	text-align: center;
+	line-height: 1.5em;
+	border: 1px solid grey;
+	border-radius: 1em;
+	margin: auto;
+	padding: 2em;
+}
+
+#description p
+{
+	font-size: 1.3em;
+}
+
+#separator
+{
+	margin-top: 3%;
+	margin-bottom: 3%;
+	border: 0.1em solid grey;
+}
+
+#tweets
+{
+	margin-left: 5%;
+	width: 90%;
+}
+
+#tweets table
+{
+	background-color: rgba(255,255,255,0.7);
+	width: 100%;
+	margin: auto;
+	border-radius: 1em;
+}
+
+#tweets table caption
+{
+	background-color: rgba(0,172,238,0.7);
+	font-size: 1.5em;
+	padding: 0.5em;
+	border-radius: 1em;
+}
+
+#tweets table td
+{
+	padding: 1em;
+	border-bottom: 0.1em solid rgb(100,100,100);
+}
+
+#tweets table #lastElement
+{
+	border: none;
+}
+
+footer
+{
+	text-align: left;
+	color: rgb(0,255,255);
+	height: 100%;
+}
+
+#iut
+{
+	height: 7%;
+	border-radius: 2.5em;
+}
+
+#legalMentions
+{
+	position: relative;
+	margin-top: -1.8em;
+	text-align: center;
+} 
+
+#legalMentions a
+{
+	text-decoration: bold;
+	color: black;
+}
+
+#facebook
+{
+	height: 7%;
+}
+
+#twitter
+{
+	height: 7%;
+}
+
+#googleplus
+{
+	height: 7%;
+}
+}
+
+@media screen and (min-width: 1754px){ /*Ecran d'ordinateur grande taille*/
+body
+{
+	background-image: url("../images/bordeauxMiroirBig.jpg");
+	background-color: rgb(70,70,70);
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: auto;
+	font-family: "century gothic", helvetica, verdana;
+}
+
+header
+{
+	background-color: rgb(70,70,70);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3.2em;
+	text-align: left;
+	z-index: 8;
+}
+
+.title
+{
+	display: inline-block;
+	color: rgb(166,219,232);
+	font-family: "century gothic", helvetica, verdana, sans-serif;
+	font-size: 2.5em;
+	text-shadow: 0.05em 0.05em 0.1em white;
+}
+
+.title a
+{
+	text-decoration: none;
+	color: #153a96;
+}
+
+.logo
+{
+	float: left;
+	margin-left: 15%;
+}
+
+.logo img
+{
+	width: 3.84em;
+	height: 2.56em;
+}
+
+.connect_suscribe
+{
+	display: inline-block;
+	margin-left: 25%;
+}
+
+.submit
+{
+	display: inline-block;
+}
+
+section
+{
+	text-align: center;
+	margin-top: 4.5em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+p
+{
+	line-height: 1.2em;
+}
+
+.left
+{
+	display: inline-block;
+	width: 30%;
+}
+
+.right
+{
+	float: right;
+	margin-right: 8%;
+	width: 50%;
+}
+
+.main
+{
+	text-align: left;
+	margin:0 auto;
+	background-color:rgba(100,100,100,0.3);
+	min-width: 1754px;
+	overflow: auto;
+}
+
+.breadcrumb 
+{
+	background-color: rgba(100,100,100,0.8);
+	padding: 0.32em 0 0.32em 0;
+	width: 100%;
+}
+
+.breadcrumb a
+{
+	margin-left: 0.5em;
+	color:white;
+	text-decoration:none;
+}
+
+.main-text
+{
+	display: block;
+	background-color:rgba(255,255,255,0.5);
+	width:100%;
+	padding:3%;
+	margin:7%;
+	text-align: center;
+}
+
+.category
+{
+	display:block;
+	padding:3%;
+	margin:3%;
+	width: 100%;
+}
+
+.category input:hover
+{
+	border:1px solid #000000;	
+}
+
+
+.category-title
+{
+	color:white;
+	background-color:#555555;
+	margin:0.7%;
+	padding:1.75%;
+	margin-bottom:3.5%;
+	width:75%;
+	border:1px solid #555555;
+}
+
+.categoryAll
+{
+	width: 100%;
+}
+
+.categoryAll input 
+{
+	color:black;
+	background-color:#FFFFFF;
+	margin-left:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width: 100%;
+	border:1px solid #FFFFFF;
+}
+
+.categoryInformation input 
+{
+	color:white;
+	background-color:#CE2430;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #CE2430;
+}
+
+.categorySorties input 
+{
+	color:white;
+	background-color:#42C2E2;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #42C2E2;
+}
+
+.categorySports input 
+{
+	color:white;
+	background-color:#E3971F;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #E3971F;
+}
+
+.categoryEconomie input
+{
+	color:white;
+	background-color:#21CF25;
+	margin:0.7%;
+	margin-bottom:3.5%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #21CF25;
+}
+
+.categoryEntreprise input
+{
+	color:white;
+	background-color:#555555;
+	margin:0.7%;
+	padding:1.75%;
+	width:100%;
+	border:1px solid #555555;
+}
+
+.separator
+{
+	margin-left: 7%;
+	border-top: 1px solid black;
+	width: 100%;
+}
+
+.share
+{
+	margin:7%;
+	background-color:#F3DBB4;
+	width: 100%;
+	display: block;
+}
+
+.share input
+{
+	color:#555555;
+	background-color:#F3DBB4;
+	width:45%;
+	border:1px solid #F3DBB4;
+}
+
+#content
+{
+	background-color:rgba(255,255,255,0.9);	
+	width:100%;
+	padding:3.5%;
+	margin:5.25%;
+	border:1px solid black;
+}
+
+.colorleftentreprise
+{
+	height:2.8em;
+	width:1%;
+	background-color:#555555;
+	display:inline-block;
+}
+.colorlefteconomie
+{
+	height:2.8em;
+	width:1%;
+	background-color:#21CF25;
+	display:inline-block;
+}
+.colorleftsport
+{
+	height:2.8em;
+	width:1%;
+	background-color:#E3971F;
+	display:inline-block;
+}
+.colorleftsortie
+{
+	height:2.8em;
+	width:1%;
+	background-color:#42C2E2;
+	display:inline-block;
+}
+.colorleftinformation
+{
+	height:2.8em;
+	width:1%;
+	background-color:#CE2430;
+	display:inline-block;
+}
+
+.fontdiv
+{
+	background-color:rgba(100,100,100,0.3);
+	display: inline-block;
+	width: 97%;
+	border: 1px solid grey;
+}
+
+.case
+{
+	height: 1em;
+	display:block;
+}
+
+#profil
+{
+	text-align: center;
+}
+
+#profil img
+{
+	border-radius: 1em;
+}
+
+#description
+{
+	width: 60%;
+	background-color: rgba(255,255,255,0.7);
+	text-align: center;
+	line-height: 1.5em;
+	border: 1px solid grey;
+	border-radius: 1em;
+	margin: auto;
+	padding: 2em;
+}
+
+#description p
+{
+	font-size: 1.3em;
+}
+
+#separator
+{
+	margin-top: 3%;
+	margin-bottom: 3%;
+	border: 0.1em solid grey;
+}
+
+#tweets
+{
+	margin-left: 5%;
+	width: 90%;
+}
+
+#tweets table
+{
+	background-color: rgba(255,255,255,0.7);
+	width: 100%;
+	margin: auto;
+	border-radius: 1em;
+}
+
+#tweets table caption
+{
+	background-color: rgba(0,172,238,0.7);
+	font-size: 1.5em;
+	padding: 0.5em;
+	border-radius: 1em;
+}
+
+#tweets table td
+{
+	padding: 1em;
+	border-bottom: 0.1em solid rgb(100,100,100);
+}
+
+#tweets table #lastElement
+{
+	border: none;
+}
+
+footer
+{
+	text-align: left;
+	color: rgb(0,255,255);
+	height: 100%;
+}
+
+#iut
+{
+	height: 7%;
+	border-radius: 2.5em;
+}
+
+#legalMentions
+{
+	position: relative;
+	margin-top: -1.8em;
+	text-align: center;
+} 
+
+#legalMentions a
+{
+	text-decoration: bold;
+	color: black;
+}
+
+#facebook
+{
+	height: 7%;
+}
+
+#twitter
+{
+	height: 7%;
+}
+
+#googleplus
+{
+	height: 7%;
+}
+}
